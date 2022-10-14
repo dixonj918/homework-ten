@@ -1,0 +1,158 @@
+.hero{
+    height: 400px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .hero-container{
+
+    }
+
+    .travel-fly{
+        width: 232px;
+        height: 80px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        // background-color: green;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Proxima;
+        font-size: 60px;
+    }
+
+    .travel-statement{
+        width: 500px;
+        height: 50px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        text-align: center;
+        // background-color: red;
+        font-family: Gill Sans;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .read-more{
+        width: 121px;
+        height: 40px;
+        margin: 0 auto;
+        padding: 5px 15px;
+        background-color: #79ADDC;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-family: Gill Sans;
+        font-size: 15px;
+      }
+  }
+
+  .promo-trips{
+    padding: 10px;
+    max-width: 1280px;
+    min-height: 304px;
+    // background-color: rgba(180, 180, 180, 0.5);
+    margin: 0 auto;
+    margin-top: -50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .austrailia{
+        width: 240px;
+        height: 304px;
+        background-color: green;
+        background-image: url(../images/tour-03.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+
+        h5{
+            font-family: Proxima;
+            color: white;
+            text-align: center;
+            font-size: 38px;
+        }
+
+        h4{
+            font-family: Proxima;
+            color: white;
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 90px;
+        }
+    }
+
+    .usa{
+        width: 240px;
+        height: 304px;
+        background-color: green;
+        background-image: url(../images/tour-02.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+
+        h5{
+            font-family: Proxima;
+            color: white;
+            text-align: center;
+            font-size: 60px;
+        }
+
+        h4{
+            font-family: Proxima;
+            color: white;
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 90px;
+        }
+    }
+
+    .israel{
+        width: 240px;
+        height: 304px;
+        background-color: green;
+        background-image: url(../images/tour-01.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+        h5{
+            font-family: Proxima;
+            color: white;
+            text-align: center;
+            font-size: 60px;
+        }
+
+        h4{
+            font-family: Proxima;
+            color: white;
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 90px;
+        }
+    }
+  }
+
+  @media only screen and (max-width: 800px){
+    .promo-trips{
+        flex-direction: column;
+    }
+
+    .israel{
+        margin-bottom: 20px;
+    }
+
+    .usa {
+        margin-bottom: 20px;
+    }
+  }

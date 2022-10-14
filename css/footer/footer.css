@@ -1,0 +1,37 @@
+footer {
+  height: 100px;
+  background-color: #79ADDC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+footer .logo {
+  width: 136px;
+  height: 42px;
+  color: white;
+  font-family: Gill Sans;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+footer .copyright {
+  font-size: 12px;
+  color: white;
+  font-family: Gill Sans;
+}
+footer .social img {
+  padding: 10px;
+}

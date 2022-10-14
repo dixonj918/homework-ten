@@ -1,0 +1,90 @@
+.tourWrapper{
+    max-width: 818px;
+    margin: 0 auto;
+    // background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .tourPhotoWrapper{
+        width: 236px;
+        height: 304px;
+        background-color: gold;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 55px;
+
+        h1{
+            font-family: proxima;
+            color: white;
+            font-size: 40px;
+        }
+        .price{
+            margin-bottom: 57px;
+            font-family: proxima;
+            font-size: 30px;
+            color: white;
+        }
+        .learnMore{
+            width: 133px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #79ADDC;
+            border-radius: 20px;
+            padding: 10px 5px;
+
+            a{
+                font-family: gill-sans;
+                font-size: 15px;
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .tourWrapper {
+      width: 527px;
+    }
+  }
+
+  @media only screen and (max-width: 540px) {
+    .tourWrapper {
+      width: 236px;
+    }
+  }
+
+  @media only screen and (max-width: 600px){
+    nav{
+      flex-direction: column;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .wrapper{
+      width: 527px;
+      padding-bottom: 1050px;
+
+      img{
+        margin-bottom: 25px;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .textBlock{
+      width: 527px;
+    }
+  }
+
+  @media only screen and (max-width: 527px) {
+    .textBlock{
+      width: 236px;
+      padding-bottom: 500px;
+    }
+  }

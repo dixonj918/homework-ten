@@ -1,0 +1,815 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+.wrapper {
+  min-height: 1200px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.learn-more {
+  background-color: #79ADDC;
+  width: 133px;
+  height: 40px;
+  padding: 10px 7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: Gill Sans;
+  font-size: 15px;
+  color: white;
+  border-radius: 20px;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+nav {
+  position: fixed;
+  height: 90px;
+  width: 60%;
+  /*   background-color: rgba(0,0,0,.5); */
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 2px solid white;
+}
+nav .logo {
+  width: 136px;
+  height: 42px;
+  color: white;
+  font-family: Gill Sans;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+nav .links {
+  height: 42px;
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+nav .links a {
+  text-decoration: none;
+  font-family: Gill Sans;
+  font-size: 15px;
+  color: white;
+}
+nav .aboutLogo {
+  font-family: gill-sans;
+  font-size: 20px;
+  color: black;
+}
+nav .aboutLinks a {
+  padding-left: 20px;
+  padding-right: 2px;
+  font-family: gill-sans;
+  text-decoration: none;
+  color: black;
+}
+nav .aboutLinks span {
+  color: #79ADDC;
+}
+
+@media only screen and (max-width: 600px) {
+  nav .logo {
+    display: none;
+  }
+}
+.hero {
+  height: 400px;
+  background-color: antiquewhite;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url(../images/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero .travel-fly {
+  width: 232px;
+  height: 80px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: Proxima;
+  font-size: 60px;
+}
+.hero .travel-statement {
+  width: 500px;
+  height: 50px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: Gill Sans;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.hero .read-more {
+  width: 121px;
+  height: 40px;
+  margin: 0 auto;
+  padding: 5px 15px;
+  background-color: #79ADDC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  font-family: Gill Sans;
+  font-size: 15px;
+}
+
+.promo-trips {
+  padding: 10px;
+  max-width: 1280px;
+  min-height: 304px;
+  margin: 0 auto;
+  margin-top: -50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.promo-trips .austrailia {
+  width: 240px;
+  height: 304px;
+  background-color: green;
+  background-image: url(../images/tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.promo-trips .austrailia h5 {
+  font-family: Proxima;
+  color: white;
+  text-align: center;
+  font-size: 38px;
+}
+.promo-trips .austrailia h4 {
+  font-family: Proxima;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 90px;
+}
+.promo-trips .usa {
+  width: 240px;
+  height: 304px;
+  background-color: green;
+  background-image: url(../images/tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.promo-trips .usa h5 {
+  font-family: Proxima;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+}
+.promo-trips .usa h4 {
+  font-family: Proxima;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 90px;
+}
+.promo-trips .israel {
+  width: 240px;
+  height: 304px;
+  background-color: green;
+  background-image: url(../images/tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.promo-trips .israel h5 {
+  font-family: Proxima;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+}
+.promo-trips .israel h4 {
+  font-family: Proxima;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 90px;
+}
+
+@media only screen and (max-width: 800px) {
+  .promo-trips {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .israel {
+    margin-bottom: 20px;
+  }
+
+  .usa {
+    margin-bottom: 20px;
+  }
+}
+.booking {
+  min-height: 800px;
+  padding: 50px;
+}
+.booking .booking-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.booking .booking-wrapper h1 {
+  font-family: Proxima;
+  font-size: 60px;
+}
+.booking .booking-wrapper .short-input {
+  max-width: 800px;
+}
+.booking .booking-wrapper .short-input input {
+  width: 344px;
+  height: 58px;
+  font-size: 18px;
+  font-family: Gill Sans;
+  color: black;
+  margin-right: 21px;
+  margin-top: 20px;
+  border: solid 1px #79ADDC;
+  padding: 10px;
+}
+.booking .booking-wrapper .long-input {
+  max-width: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.booking .booking-wrapper .long-input label {
+  font-size: 18px;
+  font-family: Gill Sans;
+  color: black;
+}
+.booking .booking-wrapper .long-input input {
+  width: 698px;
+  height: 58px;
+  margin-top: 20px;
+  border: 1px solid #79ADDC;
+  padding: 10px;
+}
+.booking .booking-wrapper .booking-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 800px;
+  min-height: 100px;
+  margin-right: 10px;
+}
+.booking .booking-wrapper .booking-info .box {
+  width: 103px;
+  height: 60px;
+  border: solid 1px #79ADDC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+}
+.booking .booking-wrapper .booking-info .box img {
+  width: 20px;
+  height: 10px;
+}
+.booking .booking-wrapper .message {
+  max-width: 800px;
+  min-height: 200px;
+}
+.booking .booking-wrapper .message input {
+  width: 800px;
+  height: 192px;
+  border: 1px solid #79ADDC;
+}
+.booking .booking-wrapper .sbtbtn input {
+  width: 813px;
+  height: 60px;
+  background-color: #79ADDC;
+  color: white;
+  font-size: 15px;
+  font-family: Gill Sans;
+  border-radius: 30px;
+  border: none;
+}
+
+.aboutTitle {
+  height: 80px;
+  max-width: 234px;
+  font-family: proxima;
+  font-size: 60px;
+  color: black;
+  border-bottom: 2px solid black;
+  text-align: left;
+  margin-bottom: 36px;
+}
+
+.aboutText {
+  height: 168px;
+  max-width: 980px;
+  font-family: gill-sans;
+  font-size: 16px;
+  color: black;
+  text-align: left;
+  margin-bottom: 23px;
+}
+
+.clientTitle {
+  height: 53px;
+  max-width: 345px;
+  font-family: proxima;
+  font-size: 40px;
+  color: black;
+  border-bottom: 2px solid black;
+  margin-bottom: 36px;
+}
+
+.clientQuote {
+  max-width: 722px;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-bottom: 36px;
+}
+.clientQuote .clientPhoto {
+  width: 260px;
+  height: 150px;
+}
+.clientQuote .clientPhoto img {
+  width: 260px;
+  height: 150px;
+}
+.clientQuote .clientText {
+  height: 102px;
+  width: 385px;
+  padding-left: 20px;
+}
+.clientQuote .clientName {
+  font-family: proxima;
+  font-size: 20px;
+  color: #79ADDC;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.hero-tour {
+  height: 200px;
+  max-width: 980px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-image: url(../images/tours-header.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero-tour .heroTours {
+  text-transform: uppercase;
+  font-family: proxima;
+  font-size: 60px;
+  color: white;
+}
+
+.tourWrapper {
+  max-width: 818px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.tourWrapper .tourPhotoWrapper {
+  width: 236px;
+  height: 304px;
+  background-color: gold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 55px;
+}
+.tourWrapper .tourPhotoWrapper h1 {
+  font-family: proxima;
+  color: white;
+  font-size: 40px;
+}
+.tourWrapper .tourPhotoWrapper .price {
+  margin-bottom: 57px;
+  font-family: proxima;
+  font-size: 30px;
+  color: white;
+}
+.tourWrapper .tourPhotoWrapper .learnMore {
+  width: 133px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #79ADDC;
+  border-radius: 20px;
+  padding: 10px 5px;
+}
+.tourWrapper .tourPhotoWrapper .learnMore a {
+  font-family: gill-sans;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 830px) {
+  .tourWrapper {
+    width: 527px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .tourWrapper {
+    width: 236px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .wrapper {
+    width: 527px;
+    padding-bottom: 1050px;
+  }
+  .wrapper img {
+    margin-bottom: 25px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .textBlock {
+    width: 527px;
+  }
+}
+@media only screen and (max-width: 527px) {
+  .textBlock {
+    width: 236px;
+    padding-bottom: 500px;
+  }
+}
+.blogWrapper {
+  width: 100%;
+  min-height: 354px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 100px;
+}
+.blogWrapper .wrapperDate {
+  height: 60px;
+  width: 60px;
+  background-color: #79ADDC;
+  text-align: center;
+  margin-right: 20px;
+}
+.blogWrapper .wrapperDate h4, .blogWrapper .wrapperDate h5 {
+  color: white;
+  font-family: gill-sans;
+  padding: 5px;
+  margin: 0px;
+}
+.blogWrapper .heroContainer {
+  width: 900px;
+  height: 100%;
+}
+.blogWrapper .heroContainer img {
+  width: 100%;
+  height: 260px;
+}
+.blogWrapper .heroContainer .blogText {
+  width: 380px;
+}
+.blogWrapper .heroContainer .blogText h6 {
+  margin-top: 20px;
+  font-family: gill-sans;
+  color: black;
+  font-size: 15px;
+}
+.blogWrapper .heroContainer .blogText p {
+  margin-top: 11px;
+  font-family: gill-sans;
+  font-size: 13px;
+  color: #79ADDC;
+}
+
+.offerWrappers {
+  width: 530px;
+  height: 287px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 60px;
+}
+.offerWrappers .offerPhoto {
+  width: 199px;
+  height: 100%;
+}
+.offerWrappers .offerText {
+  min-height: 193px;
+  width: 306px;
+  margin-left: 20px;
+}
+.offerWrappers .offerText h1 {
+  font-family: proxima;
+  font-size: 30px;
+  color: black;
+  border-bottom: solid 2px black;
+}
+.offerWrappers .offerText h1 span {
+  font-family: proxima;
+  font-size: 20px;
+  color: #FF7D38;
+}
+.offerWrappers .offerText p {
+  font-family: gill-sans;
+  font-size: 16px;
+  color: black;
+}
+.offerWrappers .offerLearn {
+  height: 40px;
+  width: 120px;
+  margin-top: 100px;
+  background-color: #79ADDC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  font-family: gill-sans;
+  font-size: 15px;
+  border-radius: 20px;
+}
+
+.contactTitle {
+  width: 200px;
+  height: 40px;
+  border-bottom: solid 2px black;
+  margin-top: 55px;
+  margin-bottom: 50px;
+}
+.contactTitle h1 {
+  font-family: proxima;
+  font-size: 30px;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.contact .map {
+  width: 400px;
+}
+.contact .map .map-image {
+  width: 100%;
+  height: 442px;
+  margin-bottom: 34px;
+  background-image: url(../images/map/c9630e6a0d4eea8424c9e77634f917b5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact .map .map-address {
+  width: 100%;
+  height: 161px;
+}
+.contact .map .map-address p {
+  font-family: gill-sans;
+  font-size: 18px;
+  color: black;
+  text-align: left;
+  margin: 0px;
+}
+.contact .contactForm {
+  width: 529px;
+  height: 560px;
+}
+.contact .contactForm .textFields {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 21px;
+  padding-left: 20px;
+  background-color: #F5F5F5;
+  border: none;
+}
+.contact .contactForm .messageText {
+  width: 100%;
+  height: 199px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  background-color: #F5F5F5;
+  border: none;
+}
+.contact .contactForm .sendMessage {
+  width: 168px;
+  height: 60px;
+  background-color: #79ADDC;
+  border: none;
+  margin-bottom: 215px;
+  color: white;
+  font-family: gill-sans;
+  font-size: 16px;
+  padding: 20px 0px;
+}
+
+@media only screen and (max-width: 990px) {
+  .contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contact .map {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .contactTitle {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: #79ADDC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+footer .logo {
+  width: 136px;
+  height: 42px;
+  color: white;
+  font-family: Gill Sans;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+footer .copyright {
+  font-size: 12px;
+  color: white;
+  font-family: Gill Sans;
+}
+footer .social img {
+  padding: 10px;
+}

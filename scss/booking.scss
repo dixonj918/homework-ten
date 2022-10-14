@@ -1,0 +1,109 @@
+.booking{
+    min-height: 800px;
+    // background-color: green;
+    padding: 50px;
+
+    .booking-wrapper{
+        max-width: 800px;
+        margin: 0 auto;
+        // background-color: pink;
+        
+
+        h1{
+            font-family:Proxima;
+            font-size: 60px;
+        }
+
+        .short-input{
+            max-width: 800px;
+            // background-color: yellow;
+            
+
+            input{
+                width: 344px;
+                height: 58px;
+                font-size: 18px;
+                font-family: Gill Sans;
+                color: black;
+                margin-right: 21px;
+                margin-top: 20px;
+                border: solid 1px #79ADDC;
+                padding: 10px;
+            
+            }
+        }
+
+
+        .long-input{
+            max-width: 800px;
+            // background-color: red;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            
+
+            label{
+                font-size: 18px;
+                font-family: Gill Sans;
+                color: black;
+            }
+            input{
+                width: 698px;
+                height: 58px;
+                margin-top: 20px;
+                border: 1px solid #79ADDC;
+                padding: 10px;
+
+            }
+        }
+
+        .booking-info{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 800px;
+            min-height: 100px;
+            // background-color: bisque;
+            margin-right: 10px;
+
+            .box{
+                width: 103px;
+                height: 60px;
+                border: solid 1px #79ADDC;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 20px;
+
+                img{
+                    width: 20px;
+                    height: 10px;
+                }
+            }
+        }
+
+        .message{
+            max-width: 800px;
+            min-height: 200px;
+            
+            input{
+                width: 800px;
+                height: 192px;
+                border: 1px solid #79ADDC
+                }
+        }
+
+        .sbtbtn{
+            input{
+                width:813px;
+                height: 60px;
+                background-color: #79ADDC;
+                color: white;
+                font-size: 15px;
+                font-family: Gill Sans;
+                border-radius: 30px;
+                border: none;
+            }
+        }
+    }
+}

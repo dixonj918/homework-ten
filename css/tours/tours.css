@@ -1,0 +1,64 @@
+.tourWrapper {
+  max-width: 818px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.tourWrapper .tourPhotoWrapper {
+  width: 236px;
+  height: 304px;
+  background-color: gold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 55px;
+}
+.tourWrapper .tourPhotoWrapper h1 {
+  font-family: proxima;
+  color: white;
+  font-size: 60px;
+}
+.tourWrapper .tourPhotoWrapper .price {
+  margin-bottom: 57px;
+  font-family: proxima;
+  font-size: 30px;
+  color: white;
+}
+.tourWrapper .tourPhotoWrapper .learnMore {
+  width: 133px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #79ADDC;
+  border-radius: 20px;
+  padding: 10px 5px;
+}
+.tourWrapper .tourPhotoWrapper .learnMore a {
+  font-family: gill-sans;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+}

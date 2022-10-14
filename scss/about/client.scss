@@ -1,0 +1,44 @@
+.clientTitle{
+    height: 53px;
+    max-width: 345px;
+    font-family: proxima;
+    font-size: 40px;
+    color: black;
+    border-bottom: 2px solid black;
+    margin-bottom: 36px;
+}
+
+.clientQuote{
+    max-width: 722px;
+    height: 150px;
+    // background-color: green;
+    display: flex;
+    position: relative;
+    margin-bottom: 36px;
+
+
+    .clientPhoto{
+        width: 260px;
+        height: 150px;
+        // background-color: yellow;
+
+        img{
+            width: 260px;
+            height: 150px;
+        }
+    }
+    .clientText{
+        height: 102px;
+        width: 385px;
+        // background-color: beige;
+        padding-left: 20px;
+    }
+    .clientName{
+        font-family: proxima;
+        font-size: 20px;
+        color: #79ADDC;
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+    }
+}

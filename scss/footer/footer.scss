@@ -1,0 +1,32 @@
+footer{
+    height: 100px;
+    width: 100%;
+    background-color:#79ADDC;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .logo{
+        width: 136px;
+        height: 42px;
+        // background-color: chocolate;
+        color: white;
+        font-family: Gill Sans;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .copyright{
+        font-size: 12px;
+        color: white;
+        font-family: Gill Sans;
+    }
+
+    .social{
+        img{
+            padding:10px;
+        }
+    }
+}

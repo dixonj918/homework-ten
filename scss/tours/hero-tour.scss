@@ -1,0 +1,22 @@
+.hero-tour{
+    height: 200px;
+    max-width: 980px;
+    // background-color: green;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-image: url(../images/tours-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .heroTours{
+        text-transform: uppercase;
+        font-family: proxima;
+        font-size: 60px;
+        color: white;
+    }
+}

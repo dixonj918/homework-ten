@@ -1,0 +1,36 @@
+.clientTitle {
+  height: 53px;
+  max-width: 345px;
+  font-family: proxima;
+  font-size: 40px;
+  color: black;
+  border-bottom: 2px solid black;
+  margin-bottom: 36px;
+}
+
+.clientQuote {
+  max-width: 722px;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-bottom: 36px;
+}
+.clientQuote .clientPhoto {
+  width: 260px;
+  height: 150px;
+}
+.clientQuote .clientText {
+  height: 102px;
+  width: 385px;
+  padding-left: 20px;
+}
+.clientQuote .clientName {
+  font-family: proxima;
+  font-size: 20px;
+  color: #79ADDC;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}

@@ -1,0 +1,107 @@
+.contactTitle{
+    width: 200px;
+    height: 40px;
+    border-bottom: solid 2px black;
+    margin-top: 55px;
+    margin-bottom: 50px;
+
+    h1{
+        font-family: proxima;
+        font-size: 30px;
+    }
+}
+
+
+.contact{
+
+    // background-color: coral;
+    display: flex;
+    justify-content: space-around;
+
+    .map{
+        width: 400px;
+        // background-color: green;
+
+    .map-image{
+        width:100%;
+        height: 442px;
+        // background-color: darkorange;
+        margin-bottom: 34px;
+        background-image: url(../images/map/c9630e6a0d4eea8424c9e77634f917b5.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .map-address{
+        width: 100%;
+        height: 161px;
+        // background-color: darkgray;
+
+        p{
+          font-family: gill-sans;
+          font-size: 18px;
+          color: black;
+          text-align: left;  
+          margin: 0px;
+        }
+    }
+    }
+
+    .contactForm{
+        width:529px;
+        height: 560px;
+        // background-color: beige;
+
+    .textFields{
+        width: 100%;
+        height: 60px;
+        margin-bottom: 21px;
+        padding-left: 20px;
+        background-color: #F5F5F5;
+        border: none;
+    }
+
+    .messageText{
+        width: 100%;
+        height: 199px;
+        padding-left: 20px;
+        margin-bottom: 20px;
+        background-color: #F5F5F5;
+        border: none;
+    }
+
+    .sendMessage{
+        width: 168px;
+        height: 60px;
+        background-color:#79ADDC ;
+        border: none;
+        margin-bottom: 215px;
+        color: white;
+        font-family: gill-sans;
+        font-size: 16px;
+        padding: 20px 0px;
+
+    }
+
+    }
+}
+
+@media only screen and (max-width: 990px){
+    .contact{
+        flex-direction: column;
+        align-items: center;
+
+        .map{
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media only screen and (max-width: 990px){
+    .contactTitle{
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}

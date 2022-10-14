@@ -1,0 +1,20 @@
+.aboutTitle {
+  height: 80px;
+  max-width: 234px;
+  font-family: proxima;
+  font-size: 60px;
+  color: black;
+  border-bottom: 2px solid black;
+  text-align: left;
+  margin-bottom: 36px;
+}
+
+.aboutText {
+  height: 168px;
+  max-width: 980px;
+  font-family: gill-sans;
+  font-size: 16px;
+  color: black;
+  text-align: left;
+  margin-bottom: 23px;
+}
