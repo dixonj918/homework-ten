@@ -119,7 +119,7 @@ var MODEL = (function(){
     >
       <h1>Israel</h1>
       <div class="price">from $1000</div>
-      <div class="learnMore"><a id=israel href="#">Learn More</a></div>
+      <div class="learnMore"><a href="#">Learn More</a></div>
     </div>
     <div
       class="tourPhotoWrapper"
@@ -127,7 +127,7 @@ var MODEL = (function(){
     >
       <h1>U.S.A</h1>
       <div class="price">from $1500</div>
-      <div class="learnMore"><a href="usa.html">Learn More</a></div>
+      <div class="learnMore"><a href="#">Learn More</a></div>
     </div>
     <div
       class="tourPhotoWrapper"
@@ -135,7 +135,7 @@ var MODEL = (function(){
     >
       <h1>Australia</h1>
       <div class="price">from $1800</div>
-      <div class="learnMore"><a href="aus.html">Learn More</a></div>
+      <div class="learnMore"><a href="#">Learn More</a></div>
     </div>
     <div
       class="tourPhotoWrapper"
@@ -143,7 +143,7 @@ var MODEL = (function(){
     >
       <h1>NewZealand</h1>
       <div class="price">from $1000</div>
-      <div class="learnMore"><a href="newzea.html">Learn More</a></div>
+      <div class="learnMore"><a href="#">Learn More</a></div>
     </div>
     <div
       class="tourPhotoWrapper"
@@ -151,7 +151,7 @@ var MODEL = (function(){
     >
       <h1>France</h1>
       <div class="price">from $2500</div>
-      <div class="learnMore"><a href="france.html">Learn More</a></div>
+      <div class="learnMore"><a href="#">Learn More</a></div>
     </div>
     <div
       class="tourPhotoWrapper"
@@ -159,7 +159,7 @@ var MODEL = (function(){
     >
       <h1>Egypt</h1>
       <div class="price">from $900</div>
-      <div class="learnMore"><a href="egypt.html">Learn More</a></div>
+      <div class="learnMore"><a href="#">Learn More</a></div>
     </div>
     <div
       class="tourPhotoWrapper"
@@ -167,7 +167,7 @@ var MODEL = (function(){
     >
       <h1>Japan</h1>
       <div class="price">from $1300</div>
-      <div class="learnMore"><a href="japan.html">Learn More</a></div>
+      <div class="learnMore"><a href="#">Learn More</a></div>
     </div>
     <div
       class="tourPhotoWrapper"
@@ -175,7 +175,7 @@ var MODEL = (function(){
     >
       <h1>Canada</h1>
       <div class="price">from $2000</div>
-      <div class="learnMore"><a href="canada.html">Learn More</a></div>
+      <div class="learnMore"><a href="#">Learn More</a></div>
     </div>
     <div
       class="tourPhotoWrapper"
@@ -183,7 +183,7 @@ var MODEL = (function(){
     >
       <h1>U.A.E</h1>
       <div class="price">from $3000</div>
-      <div class="learnMore"><a href="uae.html">Learn More</a></div>
+      <div class="learnMore"><a href="#">Learn More</a></div>
     </div>`;
     var _specialOffersContent = `      <div class="contactTitle"><h1>SPECIAL OFFER(S):</h1></div>
     <div class="offerWrappers">
@@ -304,78 +304,26 @@ var MODEL = (function(){
         <input class="sendMessage" type="submit" value="Send Message" />
       </div>
     </div>`;
-    var _israelContent = `<div class="heroTour-israel">
-    <div class="tourTitle"><h1>Israel tour package:</h1></div>
-    <div class="tourPrice">STARTING FROM $1000 (prices may vary)</div>
-  </div>
-  <div class="wrapper">
-    <img src="images/israel/israel-tour-1.jpg" alt="israel tour 1" /><img
-      src="images/israel/israel-tour-02.jpg"
-      alt="tour 2"
-    />
-    <img src="images/israel/israel-tour-03.jpg" alt="tour 3" />
-  </div>
-  <div class="textBlock">
-    <h1>Day #1:</h1>
-    <p>
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-      accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-      ab illo inventore veritatis et quasi architecto beatae vitae dicta
-      sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-      aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-      qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
-      dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
-      quia non numquam eius modi tempora incidunt ut labore et dolore magnam
-      aliquam quaerat voluptatem.
-    </p>
-  </div>
-  <div class="textBlock">
-    <h1>Day #2:</h1>
-    <p>
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-      accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-      ab illo inventore veritatis et quasi architecto beatae vitae dicta
-      sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-      aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-      qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
-      dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
-      quia non numquam eius modi tempora incidunt ut labore et dolore magnam
-      aliquam quaerat voluptatem.
-    </p>
-  </div>
-  <div class="textBlock">
-    <h1>Day #3:</h1>
-    <p>
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-      accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-      ab illo inventore veritatis et quasi architecto beatae vitae dicta
-      sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-      aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-      qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
-      dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
-      quia non numquam eius modi tempora incidunt ut labore et dolore magnam
-      aliquam quaerat voluptatem.
-    </p>
-  </div>
-  <div class="bookNow">BOOK NOW</div>`;
 
-var _updateView = function(pageName){
-console.log("Model" + pageName);
-var pageContent = "_" + pageName;
-$(".app").html(eval(pageContent));
-$(".appTour").html(eval(pageContent))
 
-if(pageName == "homeContent"){
-    $("#logo").removeClass("aboutLogo");
-    $("#links").removeClass("aboutLinks");
-    $("#links").addClass("links");
-}else {
-$("#logo").addClass("aboutLogo");
-$("#links").addClass("aboutLinks");
-$("#links").removeClass("links");
-}
 
-    };
+  function _updateView(pageName) {
+    console.log("Model" + pageName);
+    var pageContent = "_" + pageName;
+    $(".app").html(eval(pageContent));
+
+
+    if (pageName == "homeContent") {
+      $("#logo").removeClass("aboutLogo");
+      $("#links").removeClass("aboutLinks");
+      $("#links").addClass("links");
+    } else {
+      $("#logo").addClass("aboutLogo");
+      $("#links").addClass("aboutLinks");
+      $("#links").removeClass("links");
+    }
+
+  }
 var _myName = "James";
 
 
