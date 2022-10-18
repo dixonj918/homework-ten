@@ -4,8 +4,7 @@ function initListeners(){
         let aID = e.currentTarget.id;
         let contentID = aID + "Content";
 
-        
-    
+ 
     MODEL.updateView(contentID)
         // $(".app").html(eval(contentID));
         // console.log(aID);
